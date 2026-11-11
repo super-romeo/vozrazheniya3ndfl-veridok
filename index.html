@@ -8,6 +8,10 @@
 <meta name="description" content="Налоговая доначислила НДФЛ за продажу квартиры, машины или подарок? Черновик возражений на акт камеральной проверки с доводами к каждому пункту.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -62,38 +66,68 @@
 </head>
 <body>
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Возражение 3-НДФЛ</a></div>
-  <nav class="top"><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Возражение 3-НДФЛ</a>
+  <nav><a href="#chto" data-ev="click_nav_chto">Что вы получаете</a><a href="price.html" data-ev="click_nav_cena">Цена</a><a href="#primer" data-ev="click_nav_primer">Пример</a><a href="#start" data-ev="click_nav_start">Начать</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Налоговая прислала акт и доначислила НДФЛ — возражения с доводами к каждому пункту, пока не прошёл месяц</h1>
-    <p class="sub">Вы получите черновик возражений с доводами к каждому пункту акта — пока не прошёл месяц на подачу. Для тех, кто продал квартиру или машину без декларации, сдавал жильё или получил подарок.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Узнать стоимость и тарифы</a>
-    <p class="cta-note">Ранний доступ · Оплата на этой странице пока не принимается</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Для тех, кто продал квартиру</p>
+      <h1 class="rise" style="--i:1" data-len="xlong">Налоговая прислала акт и доначислила НДФЛ&nbsp;<span class="soft">— возражения с доводами к каждому пункту, пока не прошёл месяц</span></h1>
+      <p class="rise" style="--i:2">Вы получите черновик возражений с доводами к каждому пункту акта — пока не прошёл месяц на подачу. Для тех, кто продал квартиру или машину без декларации, сдавал жильё или получил подарок.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Узнать стоимость и тарифы</a>
+      <p class="meta rise" style="--i:4">Ранний доступ · Оплата на этой странице пока не принимается</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" fill="#0a1524" font-weight="600">Возражения</text><line x1="110" y1="214" x2="1090" y2="214" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="260" width="44" height="44" fill="#12397a" rx="8" /><text x="200" y="294" font-size="32" fill="#0a1524" font-weight="600">Разбор акта</text><rect x="130" y="350" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="384" font-size="32" fill="#0a1524" font-weight="600">Типовые доводы</text><rect x="130" y="440" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="474" font-size="32" fill="#0a1524" font-weight="600">Срок владения</text><rect x="130" y="530" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="200" y="564" font-size="32" fill="#0a1524" font-weight="600">Когда истекает</text><rect x="700" y="260" width="370" height="400" fill="#dfe8f7" rx="20" /><text x="730" y="330" font-size="34" fill="#0a1524" font-weight="600">Один месяц</text><rect x="740" y="450" width="48" height="160" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="818" y="510" width="48" height="100" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /><rect x="896" y="400" width="48" height="210" fill="#12397a" rx="8" /><rect x="974" y="530" width="48" height="80" fill="#ffffff" rx="8" stroke="#dde2ea" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Для</dt><dd>Кто продал квартиру</dd></div>
+      <div><dt>Черновик</dt><dd>Возражений с доводами</dd></div>
+      <div><dt>Срок</dt><dd>Один месяц со дня</dd></div>
+      <div><dt>Доступ</dt><dd>Ранний доступ</dd></div>
+    </dl>
+  </section>
 
   <section id="chto" data-view="features_view">
-    <h2>Что вы получаете</h2>
-    <div class="grid">
-      <div class="card"><b>Разбор акта</b><span>Что доначислили, за какой доход и какой год.</span><br><a class="btn" href="price.html" data-ev="feature_razbor">Мне это нужно</a></div>
-      <div class="card"><b>Типовые доводы</b><span>Вычет при продаже, расходы на покупку, срок владения.</span><br><a class="btn" href="price.html" data-ev="feature_dovody">Мне это нужно</a></div>
-      <div class="card"><b>Документы к доводам</b><span>Какие договоры, выписки и чеки приложить.</span><br><a class="btn" href="price.html" data-ev="feature_dokumenty">Мне это нужно</a></div>
-      <div class="card"><b>Срок под контролем</b><span>Напоминание, когда истекает месяц на возражения.</span><br><a class="btn" href="price.html" data-ev="feature_srok">Мне это нужно</a></div>
+    <div class="stack"><h2>Что вы получаете</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Разбор акта</text><rect x="140" y="206" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="152,230 164,240 178,220" fill="none" stroke="#12397a" stroke-width="6" /><rect x="210" y="216" width="260" height="24" fill="#dde2ea" rx="12" /><rect x="140" y="294" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="210" y="304" width="190" height="24" fill="#b9c3d2" rx="12" /><rect x="140" y="382" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="152,406 164,416 178,396" fill="none" stroke="#12397a" stroke-width="6" /><rect x="210" y="392" width="220" height="24" fill="#dde2ea" rx="12" /></svg></div>
+        <h3>Разбор акта</h3><p>Что доначислили, за какой доход и какой год.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_razbor">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Типовые доводы</text><line x1="140" y1="320" x2="660" y2="320" stroke="#dde2ea" stroke-width="6" /><rect x="140" y="290" width="112" height="60" fill="#ffffff" rx="28" stroke="#12397a" stroke-width="4" /><rect x="275" y="290" width="112" height="60" fill="#12397a" rx="28" /><rect x="410" y="290" width="112" height="60" fill="#ffffff" rx="28" stroke="#12397a" stroke-width="4" /><rect x="545" y="290" width="112" height="60" fill="#ffffff" rx="28" stroke="#12397a" stroke-width="4" /></svg></div>
+        <h3>Типовые доводы</h3><p>Вычет при продаже, расходы на покупку, срок владения.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_dovody">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Документы к доводам</text><rect x="140" y="200" width="340" height="270" fill="#ffffff" rx="16" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="236" width="180" height="18" fill="#dde2ea" rx="8" /><rect x="170" y="288" width="230" height="18" fill="#12397a" rx="8" /><rect x="170" y="340" width="140" height="18" fill="#dde2ea" rx="8" /><rect x="170" y="392" width="200" height="18" fill="#dde2ea" rx="8" /><circle cx="560" cy="330" r="52" fill="#dfe8f7" /><polyline points="534,332 552,354 590,300" fill="none" stroke="#12397a" stroke-width="8" /></svg></div>
+        <h3>Документы к доводам</h3><p>Какие договоры, выписки и чеки приложить.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_dokumenty">Мне это нужно</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="120" y="148" font-size="34" fill="#0a1524" font-weight="600">Срок под контролем</text><rect x="130" y="200" width="108" height="74" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="200" width="108" height="74" fill="#12397a" rx="10" /><rect x="390" y="200" width="108" height="74" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="520" y="200" width="108" height="74" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="295" width="108" height="74" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="295" width="108" height="74" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="295" width="108" height="74" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="520" y="295" width="108" height="74" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="390" width="108" height="74" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="390" width="108" height="74" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="390" y="390" width="108" height="74" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="520" y="390" width="108" height="74" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Срок под контролем</h3><p>Напоминание, когда истекает месяц на возражения.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_srok">Мне это нужно</a>
+      </article>
     </div>
   </section>
 
-  <section id="primer" data-view="example_view">
-    <h2>Пример (вымышленные данные)</h2>
-    <p class="fine">Женщина продала квартиру, полученную по наследству три года назад, декларацию не подала. Через год приходит акт камеральной проверки: налог доначислен со всей суммы продажи. Разбор показывает, что квартира была в собственности дольше минимального срока, и доход от её продажи не облагается. Черновик возражений с этим доводом и документами о наследстве уходит в инспекцию за две недели до конца срока.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+  <section id="primer" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Пример</h2>
+      <p>Женщина продала квартиру, полученную по наследству три года назад, декларацию не подала. Через год приходит акт камеральной проверки: налог доначислен со всей суммы продажи. Разбор показывает, что квартира была в собственности дольше минимального срока, и доход от её продажи не облагается. Черновик возражений с этим доводом и документами о наследстве уходит в инспекцию за две недели до конца срока.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Выбрать тариф</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">продала квартиру</text><circle cx="600" cy="150" r="20" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">по наследству</text><circle cx="960" cy="150" r="20" fill="#12397a" /><text x="960" y="230" font-size="34" fill="#0a1524" font-weight="600" text-anchor="middle">минимального срока</text><rect x="120" y="300" width="960" height="420" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="390" font-size="38" fill="#0a1524" font-weight="600">до конца срока</text><text x="170" y="470" font-size="32" fill="#566174">не облагается</text><rect x="170" y="540" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="266" y="540" width="64" height="64" fill="#12397a" rx="12" /><rect x="362" y="540" width="64" height="64" fill="#dde2ea" rx="12" /><rect x="458" y="540" width="64" height="64" fill="#b9c3d2" rx="12" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Как это работает</h2>
-    <p>Физлицо, которое продало квартиру или машину и не подало декларацию 3-НДФЛ, сдавало жильё или получило ценный подарок, рано или поздно получает от налоговой акт камеральной проверки. В нём доначислен налог, часто со всей суммы сделки, а рядом — штраф и пени.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Как это работает</h2></div>
+    <div class="stack">
+      <p>Физлицо, которое продало квартиру или машину и не подало декларацию 3-НДФЛ, сдавало жильё или получило ценный подарок, рано или поздно получает от налоговой акт камеральной проверки. В нём доначислен налог, часто со всей суммы сделки, а рядом — штраф и пени.</p>
     <p>На акт можно ответить письменными возражениями. По пункту 6 статьи 100 Налогового кодекса на это даётся один месяц со дня получения акта. Физлицо может подать возражения через личный кабинет налогоплательщика, лично в инспекции или почтой.</p>
     <p>Многие не делают этого: не знают, что возражать можно, или думают, что без юриста шансов нет. Между тем в таких актах часто не учтены обстоятельства, которые налоговая сама увидеть не могла, — и именно о них нужно написать.</p>
     <p>Сервис помогает подготовить возражения по библиотеке типовых доводов для физлиц. Вы присылаете акт и документы по сделке: договор купли-продажи, документы о том, как и когда имущество было получено, чеки и выписки о расходах.</p>
@@ -108,31 +142,34 @@
     <p>Акт и документы содержат ваши персональные данные. Мы используем их только для подготовки возражений и не передаём третьим лицам.</p>
     <p>Сервис рассчитан на физлиц в России, получивших акт камеральной проверки по 3-НДФЛ. Сейчас он в подготовке: сначала мы проверяем, нужен ли он людям.</p>
     <p>Сервис готовит черновик по вашим данным; он не заменяет консультацию юриста, а возражения подписываете и подаёте вы.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Вопросы и ответы</h2>
-    <h3>Сколько времени есть на возражения?</h3>
-    <p>Один месяц со дня получения акта, по пункту 6 статьи 100 Налогового кодекса.</p>
-    <h3>Как подать возражения?</h3>
-    <p>Через личный кабинет налогоплательщика, лично в инспекции или почтой.</p>
-    <h3>Какие доводы бывают при продаже квартиры?</h3>
-    <p>Минимальный срок владения, имущественный вычет при продаже и расходы на покупку проданного имущества.</p>
-    <h3>Это консультация юриста?</h3>
-    <p>Нет. Сервис готовит черновик по вашим данным; возражения подписываете и подаёте вы.</p>
-    <h3>Можно уже пользоваться?</h3>
-    <p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он людям.</p>
+    <div class="stack"><h2>Вопросы и ответы</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Сколько времени есть на возражения?</h3><p>Один месяц со дня получения акта, по пункту 6 статьи 100 Налогового кодекса.</p></div>
+      <div class="split flip"><h3>Как подать возражения?</h3><p>Через личный кабинет налогоплательщика, лично в инспекции или почтой.</p></div>
+      <div class="split flip"><h3>Какие доводы бывают при продаже квартиры?</h3><p>Минимальный срок владения, имущественный вычет при продаже и расходы на покупку проданного имущества.</p></div>
+      <div class="split flip"><h3>Это консультация юриста?</h3><p>Нет. Сервис готовит черновик по вашим данным; возражения подписываете и подаёте вы.</p></div>
+      <div class="split flip"><h3>Можно уже пользоваться?</h3><p>Пока нет. Сервис в подготовке, и мы проверяем, нужен ли он людям.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Пришлите акт проверки</h2>
-    <p><label>За что доначислили налог<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— выберите —</option><option>Продажа квартиры</option><option>Продажа машины</option><option>Сдача жилья</option><option>Подарок</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Начать</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Пришлите акт проверки</h2>
+    </div>
+    <div class="tile stack">
+      <label>За что доначислили налог<select data-ev-focus="form_start"><option value="">— выберите —</option><option>Продажа квартиры</option><option>Продажа машины</option><option>Сдача жилья</option><option>Подарок</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Начать</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Возражение 3-НДФЛ</b></p>
   <p>Оператор: ИП Гудев Роман, ИНН 615007167949 &middot; <a href="privacy.html" data-ev="click_legal_privacy">Политика обработки персональных данных</a></p>
-  <p class="muted">Черновик возражений по вашим данным. Не консультация юриста; возражения подписываете и подаёте вы.</p>
+  <p>Черновик возражений по вашим данным. Не консультация юриста; возражения подписываете и подаёте вы.</p>
 </div></footer>
 
 </body>
